@@ -22,7 +22,7 @@ export const profile = {
   ],
   links: {
     github: "https://github.com/CBTahir",
-    linkedin: "https://www.linkedin.com/in/tahir-berga-25aa40436/",
+    linkedin: "https://www.linkedin.com/in/tahir-berga/",
     email: "mailto:bergatahir@gmail.com",
   },
   experience: [],
