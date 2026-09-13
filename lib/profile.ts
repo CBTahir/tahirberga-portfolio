@@ -1,7 +1,7 @@
 export const profile = {
   name: "Tahir Berga",
   domain: "https://tahirberga.com",
-  headline: "Software Engineer",
+  headline: "Software Engineer.",
   location: "Spain",
   intro:
     "Software Engineering student focused on application security, secure systems, and AI-assisted information retrieval.",
