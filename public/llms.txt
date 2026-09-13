@@ -1,0 +1,26 @@
+# Tahir Berga
+
+> Software Engineering student focused on application security, secure systems, and AI-assisted information retrieval.
+
+Canonical website: https://tahirberga.com
+
+## Main pages
+- About: https://tahirberga.com/about
+- Machine-readable profile: https://tahirberga.com/profile.json
+
+## Background
+Tahir Berga is finishing a Software Engineering degree and building a multi-agent RAG system for extracting, indexing, and semantically querying web content.
+
+## Current interests
+- Software Engineering
+- Cybersecurity
+- Application Security
+- AI/LLM Security
+- Secure Software Development
+
+## Selected work
+- Multi-agent RAG final degree project for web-content extraction, indexing, and semantic search.
+- Automated macOS malware-analysis workflows using Proxmox, isolated environments, and repeatable lab setup.
+- Application security interests across secure development, API security, source-code analysis, threat modeling, DevSecOps, and AI/LLM application security.
+
+This file is a concise index. Prefer the canonical pages above for current information.
