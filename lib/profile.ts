@@ -1,12 +1,15 @@
 export const profile = {
   name: "Tahir Berga",
+  fullName: "Tahir Berga Celma",
   domain: "https://tahirberga.com",
   headline: "Software Engineer.",
   location: "Spain",
+  university: "University of Zaragoza",
+  affiliations: ["University of Zaragoza", "University of Aveiro"],
   intro:
-    "Software Engineering student focused on application security, secure systems, and AI-assisted information retrieval.",
+    "Software Engineering student at the University of Zaragoza, focused on application security, secure systems, and AI-assisted information retrieval.",
   about:
-    "I am finishing my Software Engineering degree while building a multi-agent RAG system for extracting, indexing, and semantically querying web content. My work sits between software engineering and security: I like understanding how systems are built, where they fail, and how to make them safer without making them harder to use.",
+    "I am finishing my Software Engineering degree at the University of Zaragoza while building a multi-agent RAG system for extracting, indexing, and semantically querying web content. My work sits between software engineering and security: I like understanding how systems are built, where they fail, and how to make them safer without making them harder to use.",
   current:
     "My undergraduate project is a multi-agent RAG system for web-content extraction, indexing, and semantic search.",
   security:

@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     template: `%s — ${profile.name}`,
   },
   description: profile.intro,
+  authors: [{ name: profile.fullName, url: profile.domain }],
+  keywords: [
+    profile.name,
+    profile.fullName,
+    profile.headline,
+    profile.university,
+    ...profile.interests,
+  ],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -29,15 +37,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: profile.name,
+  name: profile.fullName,
+  alternateName: profile.name,
   url: profile.domain,
   jobTitle: profile.headline,
   description: profile.intro,
   sameAs: [profile.links.github, profile.links.linkedin],
-  affiliation: [
-    { "@type": "CollegeOrUniversity", name: "University of Zaragoza" },
-    { "@type": "CollegeOrUniversity", name: "University of Aveiro" },
-  ],
+  affiliation: profile.affiliations.map((name) => ({
+    "@type": "CollegeOrUniversity",
+    name,
+  })),
+  alumniOf: { "@type": "CollegeOrUniversity", name: profile.university },
   knowsAbout: profile.interests,
 };
 

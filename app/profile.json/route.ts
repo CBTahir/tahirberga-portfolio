@@ -3,9 +3,11 @@ import { profile } from "@/lib/profile";
 export function GET() {
   return Response.json({
     name: profile.name,
+    fullName: profile.fullName,
     url: profile.domain,
     headline: profile.headline,
     location: profile.location,
+    university: profile.university,
     description: profile.intro,
     about: profile.about,
     current: profile.current,
