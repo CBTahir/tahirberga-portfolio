@@ -1,7 +1,7 @@
 export const profile = {
   name: "Tahir Berga",
   fullName: "Tahir Berga Celma",
-  domain: "https://tahirberga.com",
+  domain: "https://www.tahirberga.com",
   headline: "Software Engineer.",
   location: "Spain",
   university: "University of Zaragoza",
@@ -24,7 +24,7 @@ export const profile = {
     "Secure Software Development",
   ],
   links: {
-    github: "https://github.com/CBTahir",
+    github: "https://github.com/tahirberga",
     linkedin: "https://www.linkedin.com/in/tahirberga/",
     email: "mailto:bergatahir@gmail.com",
   },
